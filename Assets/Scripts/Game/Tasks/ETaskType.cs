@@ -3,7 +3,6 @@
     public enum ETaskType
     {
         Time,
-        KillAny,
-        KillSpecified
+        Kill
     }
 }

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f27b4f1b60143ac91b8796adce1c326, type: 3}
+  m_Name: EnemiesConfiguration
+  m_EditorClassIdentifier: 
+  configurations:
+  - key: 1
+    value:
+      <Sprite>k__BackingField: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+      <Color>k__BackingField: {r: 1, g: 0.30588236, b: 0, a: 1}
+      <Size>k__BackingField: {x: 0.3, y: 0.3}
+      <ClicksToKill>k__BackingField: 3
+  - key: 0
+    value:
+      <Sprite>k__BackingField: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+      <Color>k__BackingField: {r: 0, g: 0.1764706, b: 1, a: 1}
+      <Size>k__BackingField: {x: 0.3, y: 0.3}
+      <ClicksToKill>k__BackingField: 1
+  <EnemiesAmount>k__BackingField: 50
+  <EnemyPrefab>k__BackingField: {fileID: 6977828808018679088, guid: acf2097af2b5a7e45841e49382c159a4, type: 3}
+  <SpawnRect>k__BackingField:
+    serializedVersion: 2
+    x: -9.775
+    y: -4.275
+    width: 14.225
+    height: 10.575
